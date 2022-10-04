@@ -32,7 +32,7 @@ class Slot < ApplicationRecord
 
   def validate_end_time
     if start_time >= end_time
-      errors.add(:end_time, 'must be after start time'),
+      errors.add(:end_time, 'must be after start time')
     end
   end
 end

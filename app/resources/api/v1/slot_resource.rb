@@ -5,7 +5,7 @@ module Api
       has_one :storage
 
       filter :storage_id, apply: ->(records, value, _actes) do
-        date = value.first
+        id = value.first
         records.where(storage_id: id)
       end
 
