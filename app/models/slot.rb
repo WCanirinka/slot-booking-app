@@ -36,3 +36,4 @@ class Slot < ApplicationRecord
     end
   end
 end
+

@@ -1,5 +1,5 @@
-module Api
-  class ApiController < ApplicationController::API
+module Api::V1
+  class ApiController < JSONAPI::ResourceController
     include JSONAPI::ActsAsResourceController
   end
 end

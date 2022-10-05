@@ -30,6 +30,9 @@ gem "jbuilder"
 gem 'sqlite3'
 
 gem 'cssbundling-rails'
+
+gem 'jsonapi-resources'
+gem 'jsonapi-rails'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 

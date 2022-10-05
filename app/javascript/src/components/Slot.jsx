@@ -38,7 +38,7 @@ const Slot = ({time, storage, period, available}) => {
   return <li className={`list-group-item ${available ? 'bg-success' : 'bg-danger'}`}>
     <div className='row'>
       <div className='col-9'>
-        <strong>Slot<strong>
+        <strong>Slot</strong>
         <br />
         <em>{timeIndicator()}</em>
       </div>
