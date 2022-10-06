@@ -25,7 +25,7 @@ class Slot < ApplicationRecord
   end
 
   def validate_time_period
-    return unless ((end_time - start_time) / 1.minute).to_i % 15 != 0
+    if ((end_time - start_time) / 1.minute).to_i % 15 != 0
       errors.add(:base, 'must be 15 minutes difference')
     end
   end
@@ -36,4 +36,3 @@ class Slot < ApplicationRecord
     end
   end
 end
-
