@@ -1,5 +1,5 @@
 class CreateSlots < ActiveRecord::Migration[7.0]
-  def change
+  def create
     create_table :slots do |t|
       t.datetime :start_time, null: false
       t.datetime :end_time, null: false

@@ -57807,7 +57807,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
 
   // app/javascript/src/lib/apiClient.jsx
   var import_devour_client = __toESM(require_lib2());
-  var RootPath = document.queryselector('meta[name="host"]').content;
+  var RootPath = document.querySelector('meta[name="host"]').content;
   var ApiClient = new import_devour_client.default({ apiURL: RootPath });
   ApiClient.define("storage", {
     name: "",

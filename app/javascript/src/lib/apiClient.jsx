@@ -1,6 +1,6 @@
 import JsonApi from 'devour-client';
 
-const RootPath = document.queryselector('meta[name="host"]').content;
+const RootPath = document.querySelector('meta[name="host"]').content;
 const ApiClient = new JsonApi({ apiURL: RootPath })
 
 ApiClient.define('storage', {

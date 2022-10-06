@@ -31,8 +31,14 @@ gem 'sqlite3'
 
 gem 'cssbundling-rails'
 
+gem 'faker'
+
 gem 'jsonapi-resources'
 gem 'jsonapi-rails'
+
+gem 'rubocop', require: false
+
+gem 'sass-rails'
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
 
