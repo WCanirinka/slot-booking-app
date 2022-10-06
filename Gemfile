@@ -35,6 +35,7 @@ gem 'faker'
 
 gem 'jsonapi-resources'
 gem 'jsonapi-rails'
+gem 'active_model_serializers'
 
 gem 'rubocop', require: false
 
